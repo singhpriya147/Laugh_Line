@@ -1,0 +1,149 @@
+
+  body{
+   width: 350px;
+    height: 150px;
+  /* padding: 0.1rem; */
+  /* margin: 1; */
+  background: #edc0bf;
+  background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+  font-family: 'Inter', sans-serif;
+
+  } 
+.card {
+  height: auto;
+  padding: 2rem;
+  /* padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+   padding-left: 1rem;
+      padding-right: 0.5rem;
+  border-radius: 1rem;
+
+  background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.card-body {
+   text-align: center;
+    font-size:15px
+}
+#heartBtn.hearted {
+  color: red;
+}
+
+#jokeContainer{
+  padding-bottom: 10px;
+  padding-top:10px;
+  
+}
+
+#flagsContainer{
+ 
+  padding-top:5px;
+  
+}
+#prevBtn,
+#nextBtn {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+#lovedBtn {
+  font-size: 18px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#lovedBtn:hover {
+  background-color: #d60000;
+}
+
+
+
+/* CSS */
+button{
+  appearance: none;
+  background-color: #a8abae;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 6px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+button:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+button:focus {
+  outline: 1px transparent;
+}
+
+button:before {
+  display: none;
+}
+
+button:-webkit-details-marker {
+  display: none;
+}
+
+#flagsContainer{
+  color: #d60000;
+  font-size: larger;
+  font-weight: 800;
+}
+#deleteBtn{
+padding-left: 1rem;
+}
+
+.blur{
+  filter:blur(5px);
+}
+
+#revealButton {
+  display: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #333;
+  cursor: pointer;
+}
