@@ -2,10 +2,6 @@
   body{
    width: 350px;
     height: 150px;
-  /* padding: 0.1rem; */
-  /* margin: 1; */
-  background: #edc0bf;
-  /* background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%); */
   background-image: url(./Cloud_Paper.png);
   font-family: 'Inter', sans-serif;
 
